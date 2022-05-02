@@ -1,5 +1,6 @@
 import React from "react";
 import "./featured.css";
+import india from "../../images/india.jpg";
 import manchster from "../../images/manchster.jpg";
 import leeds from "../../images/leeds.jpg";
 import birmigham from "../../images/birmigham.jpg";
@@ -7,10 +8,10 @@ const Featured = () => {
   return (
     <div className="featured">
       <div className="featuredItem">
-        <img src={manchster} alt="manchster" className="featuredImg" />
+        <img src={india} alt="india" className="featuredImg" />
         <div className="featuredTitle">
-          <h1>Manchster</h1>
-          <h2>1,087 properties</h2>
+          <h1>India</h1>
+          <h2>1,150 properties</h2>
         </div>
       </div>
       <div className="featuredItem">

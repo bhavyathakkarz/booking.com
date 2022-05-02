@@ -1,0 +1,49 @@
+.homeList {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  max-width: 1024px;
+  margin-bottom: 10px;
+}
+
+.homeListItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeListImg {
+  width: 100%;
+}
+.homeListName {
+  font-weight: bold;
+}
+
+.homeListCity {
+  font-weight: 300;
+}
+
+.homeListPrice {
+  font-weight: 500;
+}
+
+/* .homeListRating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.rateBtn {
+  background-color: #003580;
+  padding: 3px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.homeListRating > span {
+  font-size: 14px;
+}
