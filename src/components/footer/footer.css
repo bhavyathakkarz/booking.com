@@ -6,7 +6,6 @@
 
 .footerList {
   width: 100%;
-  max-width: 1024px;
   display: flex;
   margin-bottom: 50px;
   justify-content: space-between;
